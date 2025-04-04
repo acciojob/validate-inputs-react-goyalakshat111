@@ -55,7 +55,17 @@ const App = () => {
   }
 
   return (
+
     <div>
+
+      <style>{`
+        .errorMessage {
+          color: red;
+          font-size: 0.9rem;
+          margin-top: 4px;
+        }
+      `}
+      </style>
       <form onSubmit={handleSubmit}>
         <div>
           <label>Name</label>
